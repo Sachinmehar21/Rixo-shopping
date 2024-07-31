@@ -1,0 +1,456 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#page1{
+    height: 110%;
+    width: 100%;
+}
+
+#page1 #top-nav{
+    height: 4%;
+    width: 100%;
+    background-color:#A8472F;
+    position: relative;
+}
+ 
+#page1 #top-nav  h5{
+    color: white;
+    position: absolute;
+    padding-left: 15px;
+    top: 30%;
+    left: 43.5%;
+    font-family: sf pro display thin;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+#page1 #top-nav i{
+    color:rgb(166, 166, 166);   
+    font-size: 20px;
+    position: absolute;
+    right: 2%;
+    top: 23%;
+}
+
+#nav{
+    height: 10%;
+    width: 100%;
+    background-color:#FFFCEE;
+    z-index: 999;
+    position:sticky;
+    top: 0%;
+    font-family: sf pro display  ;
+}
+
+#nav img{
+    height: 30%;
+    margin: 8px 45%;
+}
+
+#nav #option{
+    display: flex;
+    justify-content:space-around;
+    margin: 0 90px;
+}
+
+#nav #option a{
+    color: rgb(44, 43, 43);
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    height: 30px;
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+    
+
+#nav #option a:hover{
+    border-radius: 5px;
+    background-color:#C5B8E6;
+    transition: all ease 1s;
+}
+
+#last-nav{
+    height: 8px;
+    width: 100%;
+    background-color: #C5B8E6;
+    position: sticky;
+    top: 10%;
+    z-index: 999;
+}
+
+#main-content{
+    width: 100%;
+    height: calc(110% - 14%);
+    /* background-color: black; */
+    background-image: url(https://images.unsplash.com/photo-1503160865267-af4660ce7bf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-position: top;
+}
+
+#main-content h1{
+    color: white;
+    display: flex;
+    padding-top: 15%;
+    justify-content: center;
+    font-family: voyage;
+    font-size: 90px;
+    font-weight: 900;
+}
+
+#main-content button{
+    height: 45px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    margin: 1% 45%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-family: sf pro display;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+#main-content button:hover{
+    border:3px solid whitesmoke;
+    background-color: transparent;
+    color:white;
+    font-weight: 900;
+}
+
+#page2{
+    height: 200%;
+    
+    width: 100%;
+    background-color: #FFFCEE;
+}
+
+#page2 #bohemian{
+    height: 10%;
+    width: 100%;
+    /* background-color: red; */
+    color:#B65B4E ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:yellowtail ;
+    font-size: 50px;
+}
+
+#page2 #char-img{
+    height:40%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#page2 #char-img .model{
+    height: 90%;
+    width: 22%;
+    /* background-color: blue; */
+}
+
+#page2 #char-img .model .model-img{
+    height: 85%;
+    width: 100%;
+    /* background-color: yellow; */
+    background-size: cover;
+    background-position: top;
+}
+
+#page2 #char-img .model h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: sf pro display;
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    letter-spacing: 1px;
+     
+}
+
+#page2 #char-img .model .model-img:hover  +h5{
+    scale:1.2;
+    transition: all ease 1s;
+    color: palevioletred;
+}
+
+#page2 #part-to{
+    height:80%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+}
+
+#page2 #part-to #div1{
+    height: 95%;
+    width: 60%;
+    background-color: #F5FDD7;
+}
+
+#page2 #part-to #div1 #div1-1{
+    height: 85%;
+    width: 100%;
+    /* background-color: salmon; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/HOLIDAY_EDIT_900x.jpg?v=1685523582);
+}
+
+
+#page2 #part-to #div1  #div1-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+
+
+#page2 #part-to #div1  #div1-2 h1{
+    font-family:yellowtail;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#page2 #part-to #div1  #div1-2 p{
+    font-family:sf pro display;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+#page2 #part-to #div1  #div1-2 h3{
+    font-family:sf pro display;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+ 
+
+#page2 #part-to #div2{
+    height: 95%;
+    width: 40%;
+    /* background-color:orange; */
+}
+
+#page2 #part-to #div2 #div2-up{
+    height:50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page2 #part-to #div2 #div2-up #box1{
+    height: 100%;
+    width: 47%;
+    /* background-color: red; */
+}
+
+#page2 #part-to #div2 #div2-up #box1 h4 ,p, h5{
+    padding-left: 20px;
+    padding-top: 2px;
+    font-family: sf pro display;
+}
+
+#page2 #part-to #div2 #div2-up #box2 h4 ,p, h5{
+    padding-left: 20px;
+    padding-top: 2px;
+    font-family: sf pro display;
+}
+
+#page2 #part-to #div2 #div2-down #box3 h4 ,p, h5{
+    padding-left: 20px;
+    padding-top: 2px;
+    font-family: sf pro display;
+}
+
+#page2 #part-to #div2 #div2-down #box4 h4 ,p, h5{
+    padding-left: 20px;
+    padding-top: 2px;
+    font-family: sf pro display;
+}
+
+
+
+#page2 #part-to #div2 #div2-up #box1 #box1-o{
+    height: 85%;
+    width: 100%;
+    background-color:wheat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/1AUBRIE_BLACK_01.jpg?v=1682350825&width=330);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #part-to #div2 #div2-up #box1 #box1-o:hover{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/products/MAY-ECOM---19th-Paige136488.jpg?v=1682354999&width=300);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 #part-to #div2 #div2-up #box2 #box2-o:hover{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/000085700024.jpg?v=1684857809&width=300);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 #part-to #div2 #div2-down #box3 #box3-o:hover{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/PRODUCT_CARD_2_6.jpg?crop=center&height=440&v=1685523582&width=330);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 #part-to #div2 #div2-down #box4 #box4-o:hover{
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/DSC_2584.jpg?v=1684481249&width=300);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+#page2 #part-to #div2 #div2-up #box2{
+    height: 100%;
+    width: 47%;
+    /* background-color: saddlebrown; */
+}
+
+#page2 #part-to #div2 #div2-up #box2 #box2-o{
+    height: 85%;
+    width: 100%;
+    background-color:gray;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige136420_1.jpg?v=1684768225&width=330);
+    background-position: center;
+    background-size: cover;
+}
+
+ 
+
+#page2 #part-to #div2 #div2-down{
+    height:50%;
+    width: 100%;
+    /* background-color:rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page2 #part-to #div2 #div2-down #box3{
+    height: 100%;
+    width: 47%;
+    /* background-color:sandybrown; */
+}
+
+#page2 #part-to #div2 #div2-down #box3 #box3-o{
+    height: 85%;
+    width: 100%;
+    background-color:green;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige138380_1.jpg?v=1684481228&width=330);
+    background-position: center;
+    background-size: cover;
+}
+
+#page2 #part-to #div2 #div2-down #box4{
+    height: 100%;
+    width: 47%;
+    /* background-color: beige; */
+}
+
+#page2 #part-to #div2 #div2-down #box4 #box4-o{
+    height: 85%;
+    width: 100%;
+    background-color:wheat;
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/MAYECOM-19thPaige137011.jpg?v=1684857682&width=330);
+    background-position: center;
+    background-size: cover;
+} 
+
+
+ 
+
+#page2 #part3{
+    width: 100%;
+    height:calc(200% - 130%);
+    background-color:#FFFCEE;
+}
+
+
+#page2 #part3 #part3-1{
+    height: 80%;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(https://cdn.shopify.com/s/files/1/0327/1609/5533/files/DESKTOP_HERO_2_1.jpg?crop=center&height=935&v=1685523582&width=1920);
+    background-size: cover;
+    background-position: center;
+}
+
+#page2 #part3 #part3-1 h1{
+    display: flex;
+    justify-content: center;
+    font-family: voyage;
+    font-size: 70px;
+    color: whitesmoke;
+    padding-top: 25%;
+    text-shadow: 5px 5px black;
+}
+
+#page2 #part3 #part3-1 button{
+    height: 5%;
+    width: 8%;
+    background-color:#F5FDD7;
+    border: none;
+    margin-left: 43%;
+    margin-top: 4%;
+    font-family: sf pro display;
+}
+
+#page2 #part3 #part3-1 button:hover{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+#page2 #part3 #part3-2 h1{
+    font-family:yellowtail;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    color: #B65B4E;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+
+#page2 #part3 #part3-2 h2{
+    font-family:yellowtail;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: #B65B4E;
+}
+
+/* 
+#last{
+    height: 90%;
+    width: 100%;
+    background-color: rebeccapurple;
+} */
